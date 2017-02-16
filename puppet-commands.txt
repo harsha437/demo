@@ -1,0 +1,28 @@
+> apt-get purge puppetmaster puppet-common - y
+
+: removes the package
+
+> puppet cert list --all
+
+: lists all the certificates that are accepted/unaccpeted/available
+
+> rm -rf /etc/puppet
+
+: removed the /etc/puppet folder
+
+> rm - rf /var/run/puppet
+
+: removes the puppet folder
+
+> rm - rf /var/lib/puppet
+
+: removes the puppet folder
+
+> puppet cert clean puppetmaster.galaxy.com
+
+: removes the certificates
+
+> rm -rf /var/lib/puppet/ssl
+
+: removes ssl folder
+
